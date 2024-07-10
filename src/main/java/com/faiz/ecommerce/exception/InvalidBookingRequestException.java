@@ -1,0 +1,7 @@
+package com.faiz.ecommerce.exception;
+
+public class InvalidBookingRequestException extends RuntimeException {
+    public InvalidBookingRequestException(String message) {
+        super(message);
+    }
+}
